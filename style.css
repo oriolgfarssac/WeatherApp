@@ -1,0 +1,136 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255); 
+    background-image: url('./pictures/3415537.jpg');  
+    background-size: 100%;
+    background-position: 0%;
+}
+
+#div{
+    display: flex;
+    flex-direction: row;    
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-radius: 2em;
+    background-size: 100%;
+    background-position: 100%;
+    margin-top: 0%;
+}
+
+
+#titleApp2{
+    font-size: 20px;
+    font-weight: bolder;
+    height: 10px;
+}
+
+#cityName{
+    color: #363636;
+    width: 375px;
+    height: 30px;
+    font-size: 1.25em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 7.5px;
+    border: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+#cityName:focus{
+    color: #363636;
+    width: 375px;
+    height: 30px;
+    font-size: 1.25em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 7.5px;
+    border: solid 0px rgba(255, 255, 255, 0);
+    text-align: left;
+    outline: none;
+}
+
+#cityName:active{
+    width: 375px;
+    height: 30px;
+    font-size: 1.25em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 7.5px;
+    border: none;
+    text-align: left;
+}
+
+#checkWeather{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    margin-top: -31px;
+    margin-left: 345px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#titleCity{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+#actTemperature{
+    color: rgb(255, 255, 255);
+}
+
+#maxTemperature{
+    color: rgb(255, 255, 255);
+}
+
+#minTemperature{
+    color: rgb(255, 255, 255);
+}
+
+#city1{
+    color: black;
+}
+
+#city2{
+    color: black;
+}
+
+#city3  {
+    color: black;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35em;
+    width: 100%;
+}
+
+#icon{
+    width: 35px;
+    height: 35px;
+}
+
+#temperature{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
