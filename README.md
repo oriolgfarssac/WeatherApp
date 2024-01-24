@@ -1,7 +1,8 @@
 <h1>WEATHER APP</h1>
 
 <h5>
-In this webApp I've done a real time weather app that uses the api OpenWeather, based on the city you introduce in the app. Feel free to try it on the link below.
+This is a real time weather app WebApp I've done that uses the api OpenWeather, based on the city you introduce in the app. 
+  Feel free to try it on the link below!
 </h5>
 
 <h3> 
